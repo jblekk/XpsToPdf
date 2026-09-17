@@ -24,6 +24,7 @@ See: https://nathanpjones.com/2013/03/output-to-pdf-in-wpf-for-free/</PackageRel
     <Version>1.0.6</Version>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>../keys.snk</AssemblyOriginatorKeyFile>
+    <OutputType>WinExe</OutputType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
