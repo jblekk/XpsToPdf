@@ -86,5 +86,11 @@ namespace XpsToPdf
         {
             Close();
         }
+
+        private void BtnConvertFolder_Click(object sender, RoutedEventArgs e)
+        {
+            var dlg = new ConvertFolderWindow { Owner = this };
+            dlg.ShowDialog();
+        }
     }
 }

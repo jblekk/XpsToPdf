@@ -19,6 +19,7 @@
         <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="0,4,8,4">Source XPS:</TextBlock>
         <TextBox x:Name="TxtSource" Grid.Row="0" Grid.Column="1" Margin="0,4,8,4" IsReadOnly="True"/>
         <Button x:Name="BtnBrowseXps" Grid.Row="0" Grid.Column="2" Width="80" Margin="0,4,0,4" Click="BrowseXps_Click">Browse...</Button>
+		
 
         <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="0,4,8,4">Output PDF:</TextBlock>
         <TextBox x:Name="TxtOutput" Grid.Row="1" Grid.Column="1" Margin="0,4,8,4" IsReadOnly="True"/>
@@ -26,9 +27,11 @@
 
         <StackPanel Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,8,0,0">
             <Button x:Name="BtnConvert" Width="100" Margin="0,0,8,0" Click="Convert_Click">Convert</Button>
+            <Button x:Name="BtnConvertFolder" Width="120" Margin="0,0,8,0" Click="BtnConvertFolder_Click">Convert Folder...</Button>
             <Button Width="80" Click="Cancel_Click">Close</Button>
         </StackPanel>
 
         <TextBlock x:Name="StatusText" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,12,0,0" TextWrapping="Wrap"/>
     </Grid>
 </Window>
+
