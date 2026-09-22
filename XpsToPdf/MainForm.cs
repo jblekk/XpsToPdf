@@ -17,7 +17,7 @@ namespace XpsToPdfLauncher
 
             btnPlay = new Button
             {
-                Text = "Play",
+                Text = "Single File",
                 Width = 100,
                 Height = 30,
                 Location = new Point((ClientSize.Width - 100) / 2, 20),
